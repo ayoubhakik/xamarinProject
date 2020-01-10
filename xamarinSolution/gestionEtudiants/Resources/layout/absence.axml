@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="83.0dp"
+		android:id="@+id/linearLayout1" >
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/linearLayout2">
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="193.0dp"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout3" >
+				<TextView
+					android:text="lesson"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+				<android.support.design.widget.TextInputEditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textInputEditText1" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="189.0dp"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout4" >
+				<TextView
+					android:text="filiere"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView2" />
+				<android.support.design.widget.TextInputEditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textInputEditText2" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="391.0dp"
+		android:id="@+id/linearLayout5" />
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="70.0dp"
+		android:id="@+id/linearLayout6" >
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="67.0dp"
+			android:id="@+id/linearLayout7" >
+			<Button
+				android:text="Save"
+				android:layout_width="189.0dp"
+				android:layout_height="match_parent"
+				android:id="@+id/button1" />
+			<Button
+				android:text="Cancel"
+				android:layout_width="190.5dp"
+				android:layout_height="match_parent"
+				android:id="@+id/button2" />
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>
